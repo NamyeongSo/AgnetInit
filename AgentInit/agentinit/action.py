@@ -5,6 +5,9 @@ from abc import ABC
 from typing import Optional
 
 from tenacity import retry, stop_after_attempt, wait_fixed
+import os
+
+
 from AgentInit.llm.llm_registry import LLMRegistry
 from .action_output import ActionOutput
 from .common import OutputParser

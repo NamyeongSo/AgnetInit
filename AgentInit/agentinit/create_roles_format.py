@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 from typing import List, Tuple
-from .action import Action
+from action import Action
 
 import re
 PROMPT_TEMPLATE = '''
